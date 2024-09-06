@@ -1,6 +1,6 @@
 # Pincode Wala
 
-![Logo](https://i.ibb.co/x7PPxTN/logo.png)
+![Logo](./image/logo.png)
 
 Pincode Wala is a simple and easy-to-use tool for finding information about Indian pincodes. Enter a pincode or use your current location to get details such as the state, district, and postal office. This project was built with modern web technologies and aims to provide users with quick access to relevant location-based information.
 
@@ -49,15 +49,16 @@ To set up this project locally:
 
 5. Open your browser and navigate to `http://localhost:5173`.
 
-
 ## <img width="50" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/npm.svg" /> This project uses the following dependencies -
 
 ### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/main.svg" /> Dependencies :-
+
 | Package Name | Version |
 | :----------- | :------ |
 | notyf        | ^3.10.0 |
 
 ### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/dev.svg" /> Dev Dependencies :-
+
 | Package Name       | Version |
 | :----------------- | :------ |
 | @biomejs/biome     | 1.8.3   |
@@ -66,4 +67,3 @@ To set up this project locally:
 | typescript         | ^5.5.3  |
 | vite               | ^5.4.1  |
 | vite-plugin-mkcert | ^1.17.6 |
-
