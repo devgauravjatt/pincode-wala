@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pincode Wala - Pincode Finder and Info</title>
+
+		<!-- Description -->
+		<meta
+			name="description"
+			content="Pincode Wala helps users find pincode information for various locations in India. Enter your pincode or use current location to get details like state, district, and postal office."
+		/>
+
+		<!-- Keywords -->
+		<meta
+			name="keywords"
+			content="pincode, pincode finder, postal code, India pincode, location-based pincode, district, postal office, current location pincode"
+		/>
+
+		<!-- Author -->
+		<meta name="author" content="Pincode Wala" />
+
+		<!-- Open Graph Metadata for social sharing -->
+		<meta
+			property="og:title"
+			content="Pincode Wala - Find Pincode Information"
+		/>
+		<meta
+			property="og:description"
+			content="Easily find Indian pincode information by entering a pincode or using your current location."
+		/>
+		<meta property="og:image" content="https://i.ibb.co/x7PPxTN/logo.png" />
+		<meta property="og:url" content="https://pincodewala.com" />
+		<meta property="og:type" content="website" />
+
+		<!-- Twitter Card Metadata -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="Pincode Wala - Find Pincode Information"
+		/>
+		<meta
+			name="twitter:description"
+			content="Easily find Indian pincode information by entering a pincode or using your current location."
+		/>
+		<meta name="twitter:image" content="https://i.ibb.co/x7PPxTN/logo.png" />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="/icon.png" />
+
+		<!-- Stylesheet -->
+	</head>
+	<body>
+		<div class="logodiv">
+			<img src="https://i.ibb.co/x7PPxTN/logo.png" alt="pincode wala logo" />
+		</div>
+		<div class="pincode-main-box">
+			<div class="search-ui-area">
+				<div class="search">
+					<input
+						type="number"
+						minlength="6"
+						maxlength="6"
+						class="searchTerm"
+						placeholder="Enter Pincode here"
+					/>
+					<button class="searchButton">
+						<ion-icon size="large" name="search-outline"></ion-icon>
+					</button>
+				</div>
+				<button class="get-location">
+					<ion-icon size="small" name="location-outline"></ion-icon>
+					<p>Get from current location</p>
+				</button>
+			</div>
+
+			<div class="data-ui">
+				<div class="data-ui-1">
+					<ul>
+						<li>
+							<div>
+								<p>Statename</p>
+								<p>-</p>
+								<p>Rajasthan</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<p>District</p>
+								<p>-</p>
+								<p>Dholpur</p>
+							</div>
+						</li>
+
+						<li>
+							<div>
+								<p>Pincode</p>
+								<p>-</p>
+								<p>328030</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="select-ui-box">
+					<div id="select-ui-1">
+						<p>Sub district select</p>
+						<select id="sub_distname">
+							<option value="Dhaulpur">Dhaulpur</option>
+							<option value="Sepau">Sepau</option>
+							<option value="Bari">Bari</option>
+						</select>
+					</div>
+					<div id="select-ui-2">
+						<p>Office area select</p>
+						<select id="officename">
+							<option value="Biloni B.O">Biloni B.O</option>
+							<option value="Basai Samanta B.O">Basai Samanta B.O</option>
+							<option value="Sarani Khera B.O">Sarani Khera B.O</option>
+							<option value="Panch Gaon S.O">Panch Gaon S.O</option>
+						</select>
+					</div>
+				</div>
+				<div class="pincode-data-table">
+					<table>
+						<thead>
+							<tr>
+								<th>Village</th>
+								<th>Officename</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>AmolPura</td>
+								<td>Biloni B.O</td>
+							</tr>
+							<!-- more rows here -->
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
